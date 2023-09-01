@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 74px auto 0 auto;
+  margin: 62px auto 0 auto;
 }
 
 .inputSearchContainer {
@@ -25,5 +25,5 @@
 }
 
 .inputSearchContainer input::placeholder {
-  color: #bcbcbc;
+  color: var(--gray-200);
 }

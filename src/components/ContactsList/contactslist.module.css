@@ -9,7 +9,7 @@
 }
 
 .listHeader strong {
-  color: #222;
+  color: var(--gray-900);
   font-size: 24px;
 }
 
@@ -27,4 +27,30 @@
 .listHeader a:hover {
   background-color: var(--primary-color-main);
   color: #fff;
+}
+
+.listContainer {
+  margin-top: 24px;
+}
+
+.listContainer header {
+  margin-bottom: 8px;
+}
+
+.listContainer header button {
+  display: flex;
+  align-items: center;
+
+  background: transparent;
+  border: none;
+}
+
+.listContainer header button span {
+  font-weight: bold;
+  margin-right: 8px;
+  color: var(--primary-color-main);
+}
+
+.listBody {
+  margin-top: 16px;
 }

@@ -11,6 +11,10 @@
   --primary-color-light: #6674F4;
   --primary-color-dark: #3346F0;
   --primary-color-lighter: #E0E3FF;
+
+  --gray-900: #222222;
+  --gray-200: #BCBCBC;
+  --gray-100: #E6E6E6;
 }
 
 * {
@@ -34,6 +38,11 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button,
+input {
+  font-family: inherit;
 }
 
 button {
