@@ -6,6 +6,11 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
 
+  --background-color: #F6F5FC;
+  --primary-color-main: #5061FC;
+  --primary-color-light: #6674F4;
+  --primary-color-dark: #3346F0;
+  --primary-color-lighter: #E0E3FF;
 }
 
 * {
@@ -23,7 +28,7 @@ body {
 
 body {
   font-size: 16px;
-  background-color: #F6F5FC;
+  background-color: var(--background-color);
 }
 
 a {

@@ -6,13 +6,12 @@ import Logo from '@/../public/icons/Logo.svg'
 export default function Header() {
   return (
     <>
-    <header className={styles.container}>
-      <Image src={Logo} alt='Logo MyContacts'/>
-      <div className={styles.inputSearchContainer}>
-        <input type="text" placeholder='Pesquisar contato'/>
-      </div>
-    </header>
-
+      <header className={styles.container}>
+        <Image src={Logo} alt='Logo MyContacts'/>
+        <div className={styles.inputSearchContainer}>
+          <input type="text" placeholder='Pesquisar contato'/>
+        </div>
+      </header>
     </>
   )
 }

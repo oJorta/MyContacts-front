@@ -1,0 +1,30 @@
+.container {
+  margin-top: 32px;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listHeader strong {
+  color: #222;
+  font-size: 24px;
+}
+
+.listHeader a {
+  padding: 8px 16px;
+  color: var(--primary-color-main);
+  font-weight: bold;
+
+  border: 2px solid var(--primary-color-main);
+  border-radius: 4px;
+
+  transition: all 0.2s ease-in;
+}
+
+.listHeader a:hover {
+  background-color: var(--primary-color-main);
+  color: #fff;
+}

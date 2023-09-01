@@ -1,8 +1,6 @@
-import '../globals.css'
+import './globals.css'
 import type { Metadata } from 'next'
 import { Sora } from 'next/font/google'
-
-import Header from '@/components/Header'
 
 const sora = Sora({ subsets: ['latin'] })
 
@@ -19,7 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sora.className}>
-        <Header />
         {children}
       </body>
     </html>

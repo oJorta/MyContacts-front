@@ -1,11 +1,13 @@
 import styles from './page.module.css'
-import Image from 'next/image'
 
-import Logo from '@/../public/icons/Logo.svg'
+import Header from '@/components/Header'
+import ContactsList from '@/components/ContactsList'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Header />
+      <ContactsList />
     </div>
   )
 }
