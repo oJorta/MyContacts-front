@@ -1,0 +1,23 @@
+.container {
+
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  margin-right: 8px;
+  transform: rotate(-90deg);
+}
+
+.container span {
+  font-weight: bold;
+  color: var(--primary-color-main);
+}
+
+.container h1 {
+  font-size: 24px;
+}
+

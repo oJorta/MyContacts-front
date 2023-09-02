@@ -4,26 +4,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 62px auto 0 auto;
-}
-
-.inputSearchContainer {
-  width: 100%;
-  margin-top: 48px;
-}
-
-.inputSearchContainer input {
-  width: 100%;
-  height: 50px;
-  padding: 0 1em;
-  background: #fff;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-
-  outline: none;
-}
-
-.inputSearchContainer input::placeholder {
-  color: var(--gray-200);
+  margin: 62px auto 48px auto;
 }

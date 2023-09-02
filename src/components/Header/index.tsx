@@ -8,9 +8,6 @@ export default function Header() {
     <>
       <header className={styles.container}>
         <Image src={Logo} alt='Logo MyContacts'/>
-        <div className={styles.inputSearchContainer}>
-          <input type="text" placeholder='Pesquisar contato'/>
-        </div>
       </header>
     </>
   )
